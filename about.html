@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Menu Fix</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    nav {
+      background: #222;
+      color: white;
+      padding: 15px 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #00bcd4;
+    }
+
+    /* Checkbox caché */
+    #gh {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background: #222;
+        padding: 20px 0;
+        display: none;
+      }
+
+      /* Quand checked → afficher */
+      #gh:checked ~ ul {
+        display: flex;
+      }
+
+      .menu-icon {
+        display: block;
+      }
+    }
+
+    /* Quand on dépasse 768px → forcer le menu à réapparaître */
+    @media (min-width: 769px) {
+      ul {
+        display: flex !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">PharmayClick</div>
+
+    <input type="checkbox" id="gh">
+    <label for="gh" class="menu-icon">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Produits</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

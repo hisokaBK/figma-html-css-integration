@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #12132a;
+}
+
+#hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#hero-section h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 100;
+  font-size: 58px;
+  color: aliceblue;
+  letter-spacing: 9px;
+  background-image: url("./image/haaa.png");
+  background-position: -10px;
+
+  background-repeat: no-repeat;
+  width: 415px;
+  background-size: 320px;
+  padding-top: 10px;
+}
+
+#p1-hero-section {
+  width: 300px;
+  color: #767799;
+}
+
+#p2-hero-section {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: x-large;
+  width: 50%;
+  color: white;
+}
+
+#hero-section img {
+  height: 450px;
+}
+
+.arrow-rt {
+  color: rgba(255, 255, 255, 0.447);
+  z-index: 1;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  width: 100%;
+  align-items: center;
+}
+
+.button-div button {
+  height: 33px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: rgba(250, 235, 215, 0);
+  color: rgb(112, 114, 114);
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+.button-div button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.button-div div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#felt-row {
+  color: aliceblue;
+}
+
+.foter-header {
+  min-height: 73px;
+  width: 100%;
+  margin-top: -6px;
+  background-color: #162446;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.foter-header img {
+  height: 34px;
+}
+
+#arrow_0 {
+  position: absolute;
+  top: 0px;
+  left: 360px;
+}
+
+@media screen and (max-width: 827px) {
+  #hero-section h1 {
+    font-size: 30px;
+    color: aliceblue;
+    letter-spacing: 6px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 210px;
+    padding-top: 10px;
+  }
+
+  #p1-hero-section {
+    width: 300px;
+    color: #767799;
+  }
+
+  #hero-section img {
+    height: 325px;
+  }
+
+  #hero-img-continer {
+    background-image: url("./image/iphon-back.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 630px ;
+    padding-top: 10px;
+  }
+
+  #arrow_0 {
+    top: 34px;
+    height: 89px;
+    left: 310px;
+  }
+
+  #p1-hero-section {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #hero-section {
+    flex-direction: column-reverse;
+  }
+  #hero-img-continer {
+    border: 2px solid rgba(168, 168, 168, 0.41);
+    border-radius: 23px;
+    text-align: center;
+  }
+   #hero-section img {
+    margin-bottom: -5px;
+  }
+
+  #hero-section h1 {
+    width: 100%;
+
+    background-position: -10px;
+
+    background-repeat: no-repeat;
+
+    background-size: 320px;
+    padding-top: 10px;
+  }
+
+  #p1-hero-section {
+    width: 300px;
+    color: #767799;
+  }
+
+  #hero-section br {
+    display: inline;
+  }
+
+  .button-div {
+    justify-content: space-around;
+  }
+
+  #arrow_0 {
+    display: none;
+  }
+}
