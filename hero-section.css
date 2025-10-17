@@ -4,6 +4,9 @@ body {
   background-color: #12132a;
 }
 
+/*  ---------------------| hero-section |-------------------------------  */
+
+
 #hero-section {
   display: flex;
   justify-content: space-between;
@@ -29,14 +32,17 @@ body {
 #p1-hero-section {
   width: 300px;
   color: #767799;
+  margin-bottom: -1px;
 }
 
 #p2-hero-section {
   padding-left: 12px;
   padding-right: 12px;
   font-size: x-large;
-  width: 50%;
+  width: 80%;
   color: white;
+  font-size: xx-large;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 #hero-section img {
@@ -56,7 +62,7 @@ body {
   align-items: center;
 }
 
-.button-div button {
+.button {
   height: 33px;
   padding-left: 12px;
   padding-right: 12px;
@@ -66,7 +72,7 @@ body {
   border-radius: 16px;
 }
 
-.button-div button:hover {
+.button:hover {
   color: rgb(255, 255, 255);
 }
 
@@ -83,7 +89,7 @@ body {
 .foter-header {
   min-height: 73px;
   width: 100%;
-  margin-top: -6px;
+  margin-top: -14px;
   background-color: #162446;
   display: flex;
   justify-content: space-around;
@@ -101,6 +107,139 @@ body {
   left: 360px;
 }
 
+
+/*  ---------------------| main |-------------------------------  */
+
+/*-----div-main-1--------- */
+
+.div-main-1-1{
+      padding: 23px ;
+}
+
+.div-main-1-2{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      row-gap: 12px;
+      padding: 60px;
+}
+.div-main-1-1 h1{
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-weight: 100;
+      text-align: center;
+      color: #FFFFFF;
+}
+
+.div-main-1-1 p{
+        color:#767799 ;
+        text-align: center;
+}
+.numbers-cart{
+      font-size: 40px;
+      text-align: start;
+      margin-top: 0px;
+
+}
+.auto-carts{
+      border: 1px solid #C23893;
+      width: 250px;
+      border-radius: 16px;
+      text-align: center;
+      padding: 10px;
+      
+}
+
+.auto-carts h2,.auto-carts p{
+        color: #FFFFFF;
+}
+
+.auto-carts span{
+      font-size: 70px;
+      padding-bottom: 99px;
+}
+
+/*-----div-main-2--------- */
+
+.div-main-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 73px;
+}
+.iphon2 img{
+       margin-top: -95px;
+       height:  496px;
+      
+}
+
+.div-main-2-1 p{
+       color: #ffffff54;
+}
+.div-main-2-1 p:first-child{
+     color: #C23893;
+     font-family: "Plus Jakarta Sans", sans-serif;
+     margin-bottom: -20px;
+     font-size: 19px;
+}
+.div-main-2-1 h5{
+     color: #FFFFFF;
+     font-family: "Plus Jakarta Sans", sans-serif;
+     margin-top: -12px;
+     margin-bottom: -12px;
+    
+}
+.div-main-2-1 h1{
+     color: #FFFFFF;
+     font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.main-2-icon-h5{
+      display: flex;
+      align-items: center;
+      gap: 12px
+}
+
+.carts-2{
+    width: 50%;
+}
+
+/* ---div-main-3-------- */
+
+.div-main-3{
+    padding-left: 50px;
+  
+}
+.div-main-3 h1{
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 50px;
+      color: #FFFFFF;
+}
+
+.div-main-3 p{
+     color: #ffffff51;
+} 
+
+.div-main-3-1{
+       display: flex;
+       justify-content: space-between;
+}
+
+.div-main-3 img{
+     margin-top: -50px;
+     height: 500px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 827px) {
   #hero-section h1 {
     font-size: 30px;
@@ -110,6 +249,7 @@ body {
     background-repeat: no-repeat;
     background-size: 210px;
     padding-top: 10px;
+    
   }
 
   #p1-hero-section {
@@ -138,6 +278,40 @@ body {
   #p1-hero-section {
     width: 250px;
   }
+
+  .foter-header{
+     margin-top: -7px;
+  }
+
+  /*-----div-main-2--------- */ 
+  .div-main-2{
+    padding: 33px;
+    
+}
+.iphon2 img{
+       margin-top: -5px;
+       height: 350px;
+       
+}
+
+.carts-2{
+    width:100%;
+}
+
+ /*-----div-main-3--------- */
+
+ .div-main-3 img{
+     height: 400px;
+    
+}
+
+.div-main-3 h1{
+      font-size: 35px;
+      color: #FFFFFF;
+}
+
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -180,4 +354,19 @@ body {
   #arrow_0 {
     display: none;
   }
+
+  .div-main-2{
+    flex-wrap: wrap;
+  }
+  
+  .div-main-3-1{
+    flex-wrap: wrap;
 }
+
+}
+
+
+
+
+
+
