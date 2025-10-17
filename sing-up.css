@@ -1,15 +1,15 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #12132A;
 }
 
-.full-cnt{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 100px;
-     padding-top: 0px;
+.full-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 0;
 }
 
 .container {
@@ -18,8 +18,7 @@ body {
   background-color: #0b0c2400;
   border-radius: 10px;
   width: 750px;
-  height: 480px;
- 
+  height: 550px;
 }
 
 .left-side {
@@ -28,7 +27,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #484848;
 }
 
 .left-side img {
@@ -43,26 +41,25 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+    border-right: 1px solid #484848;
+
 }
 
 main h1 {
   font-size: 28px;
   font-weight: lighter;
   color: #fff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   letter-spacing: 3px;
   text-align: center;
-  margin-left: -122px;
+  margin-left: 152px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 23px;
 }
-
-
 
 .logo img {
   height: 46px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
-
-
 
 form {
   width: 100%;
@@ -78,38 +75,25 @@ input {
   padding: 10px;
   color: #fff;
   font-size: 13px;
-  margin-bottom: 40px;
+  margin-bottom: 30px; 
+
 }
 
-form div{
-    text-align: center;
-}
-.forgot {
-  font-size: 13px;
-  color: #4e4ef5;
-  text-decoration: none;
-}
-
-.forgot:hover{
-   text-decoration: underline;
-}
-
-.button-singin{
-     text-align: center;
+.button-singin {
+  text-align: center;
 }
 
 .button-singin button {
   background-color: #1c1cb466;
   color: #ffffff5f;
-  border: none;
+  border: 1px solid rgba(245, 245, 220, 0.214);
   padding: 10px;
   border-radius: 20px;
   width: 60%;
   cursor: pointer;
   margin-top: 10px;
-  border: 1px solid rgba(245, 245, 220, 0.214);
-  transition: 0.3s;
-  
+     transition: 0.3s;
+
 }
 
 .button-singin button:hover {
@@ -150,22 +134,18 @@ form div{
   text-decoration: underline;
 }
 
-
 @media (max-width: 700px) {
- 
   .left-side {
     display: none;
   }
 
-
-  .button-singin button{
-       height: 30px;
-       padding: 0px;
+  .button-singin button {
+    height: 30px;
+    padding: 0;
   }
 
-  .full-cnt{
-     height: 600px;
-     padding: 10px;
-}
-  
+  .full-cnt {
+    height: 600px;
+    padding: 10px;
+  }
 }

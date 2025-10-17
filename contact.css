@@ -1,4 +1,3 @@
-
 body {
   margin: 0px;
   padding: 0px;
@@ -6,6 +5,10 @@ body {
 }
 
 .continer-contact{
+    padding-top: 23px;
+    padding-bottom: 98px;
+    padding-left: 9%;
+    padding-right: 9%;
     display: flex;
     justify-content: space-around;
 
@@ -15,7 +18,10 @@ body {
 .head-contact{
     color: #FFFF;
     text-align: center;
-    padding: 34px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 12px;
+   
 }
 
 
@@ -29,8 +35,8 @@ body {
       width: 190px;
       color: #FFFF;
       display: flex;
-      align-items: center;
-      
+      align-items: center;  
+      padding-left: 63px;
 }
 
 .ph-emiel-gps img{
@@ -43,10 +49,9 @@ body {
 }
 
 
-
-
 #img-contact img{
-      height: 300px;
+      height: 280px;
+      margin-left: 100px;
 }
 
 .main-contact{
@@ -57,9 +62,10 @@ body {
 
 .form-contact{
        border: 1px solid #FFFF;
-       padding: 23px;
+       padding: 13px;
        border-radius: 16px;
-       width:27% ;
+       width:30% ;
+       min-width: 290px;
        display: flex;
        flex-direction: column;
        justify-content: center;
@@ -69,22 +75,31 @@ body {
 .form-contact input{
      background-color: #12132a00;
      border: none;
-     border-bottom: 1px solid beige;
+     border-bottom: 1px solid rgba(245, 245, 220, 0.382);
      color: #FFFF;
      min-height: 23px;
 }
 
 
 .form-contact textarea{
-    background-color: #12132a00;
+     background-color: #12132a00;
      border: none;
-     border-bottom: 1px solid beige;
-     margin-top: 12px;
+     color: #FFFF;
+     border: 1px solid rgba(245, 245, 220, 0.182);
+     min-height: 100px;
+     max-height: 120px;
+     max-width: 100%;
+     min-width: 100%;
 }
-
+.form-contact img{
+      height: 32px;
+      width: 90px;
+}
 .form-contact  h3{
      color: #FFFF;
      text-align: center;
+     margin: -6px;
+    font-family: "Plus Jakarta Sans", sans-serif;
 
 }
 
@@ -103,4 +118,50 @@ body {
 
 .button-form-contact{
       text-align: center;
+}
+
+.foot-contact p{
+     color: #ffffff75;
+     text-align: center;
+}
+
+@media screen and (max-width: 827px) {
+     .continer-contact{
+            flex-direction: column;
+            align-items: center;
+     }
+
+     #img-contact img{
+         
+          height: 200px;
+          margin-left: -50px;
+
+     }
+
+    #continer-ph-emiel-gps{  
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+     #img-contact img{
+           margin-left: 0px;
+           height: 127px;
+           margin-left: -50px;
+
+     }
+
+  
+
+     .ph-emiel-gps p{
+          padding-left: 8px;
+          font-size: 11px;
+     }
+     .ph-emiel-gps{
+           width: 130px;
+     }
 }

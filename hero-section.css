@@ -367,6 +367,17 @@ body {
     flex-wrap: wrap;
 }
 
+.foter-header{
+  min-height: 53px;
+    
+}
+
+.foter-header img {
+  height: 17px;
+
+}
+
+
 }
 
 
