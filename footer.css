@@ -34,5 +34,29 @@ footer a:hover{
 
 .footer-dev{
       background-color: #FFFFFF;
+      justify-content: space-around;
 }
+
+#p-foter p{
+      color: #FFFFFF;
+     
+}
+
+.div-icons{
+       color: #FFFFFF;
+       min-height: 23px;
+       
+}
+
+#p-foter{
+      display: flex;
+      justify-content: space-around;background-color: #C23893;
+      align-items: center;
+
+}
+ 
+
+
+
+
 

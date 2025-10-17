@@ -301,12 +301,16 @@ body {
  /*-----div-main-3--------- */
 
  .div-main-3 img{
-     height: 400px;
+     height: 340px;
     
 }
 
+ .div-main-3{
+    padding: 22px;
+ }
+
 .div-main-3 h1{
-      font-size: 35px;
+      font-size: 33px;
       color: #FFFFFF;
 }
 
