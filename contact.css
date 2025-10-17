@@ -1,0 +1,106 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #12132a;
+}
+
+.continer-contact{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.head-contact{
+    color: #FFFF;
+    text-align: center;
+    padding: 34px;
+}
+
+
+#continer-ph-emiel-gps{
+      display: flex;
+      flex-direction: column;
+      
+}
+
+.ph-emiel-gps{
+      width: 190px;
+      color: #FFFF;
+      display: flex;
+      align-items: center;
+      
+}
+
+.ph-emiel-gps img{
+         height: 20px ;
+         
+}
+
+.ph-emiel-gps p{
+     padding-left: 18px;
+}
+
+
+
+
+#img-contact img{
+      height: 300px;
+}
+
+.main-contact{
+     padding-left: 13px;
+     padding-right: 13px;
+     padding-bottom: 24px;
+}
+
+.form-contact{
+       border: 1px solid #FFFF;
+       padding: 23px;
+       border-radius: 16px;
+       width:27% ;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 44px;
+}
+
+.form-contact input{
+     background-color: #12132a00;
+     border: none;
+     border-bottom: 1px solid beige;
+     color: #FFFF;
+     min-height: 23px;
+}
+
+
+.form-contact textarea{
+    background-color: #12132a00;
+     border: none;
+     border-bottom: 1px solid beige;
+     margin-top: 12px;
+}
+
+.form-contact  h3{
+     color: #FFFF;
+     text-align: center;
+
+}
+
+.form-contact button{
+     height: 27px;
+     width: 150px;
+     background-color: #12132a00;
+     color: #ffffff74;
+     border: 1px solid ;
+     border-radius: 16px;
+}
+
+.form-contact button:hover{
+    color: #FFFF;
+}
+
+.button-form-contact{
+      text-align: center;
+}
